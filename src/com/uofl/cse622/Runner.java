@@ -14,5 +14,6 @@ public class Runner {
 
         Simulation simulation = new Simulation(numberOfStudent);
         simulation.startSimulation(time,percent);
+        scanner.close();
     }
 }
