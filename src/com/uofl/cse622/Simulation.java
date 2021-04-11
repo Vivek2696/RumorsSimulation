@@ -28,8 +28,6 @@ public class Simulation {
     }
 
     public void startSimulation(int time, int percent){
-        //SPLIT logic for 2000 or more students
-        //Just choose random and check if already exist or not.
         Map<Integer, Integer> pairs;
         int percentOfStudentHeardRumor = 0;
         while(!rumorSpreadAcrossAllStudents() && percentOfStudentHeardRumor < percent && timer < time){
