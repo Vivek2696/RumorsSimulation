@@ -6,13 +6,13 @@ public class Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of student: ");
-        int N = scanner.nextInt();
+        int numberOfStudent = scanner.nextInt();
         System.out.println("Enter the time for simulation: ");
-        int T = scanner.nextInt();
+        int time = scanner.nextInt();
         System.out.println("Enter the percent limit: ");
-        int P = scanner.nextInt();
+        int percent = scanner.nextInt();
 
-        Simulation simulation = new Simulation(N);
-        simulation.startSimulation(N,P);
+        Simulation simulation = new Simulation(numberOfStudent);
+        simulation.startSimulation(time,percent);
     }
 }
