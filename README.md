@@ -3,7 +3,7 @@
 >   CSE 622 Project
 
 ## Overview of Program:
-* There are N students are at a party (N is an even integer 2 ≤ N ≤ 10,000)
+* There are N students at the party (N is an even integer 2 ≤ N ≤ 10,000)
 * At some point, all students pair off at random and talk for exactly one minute.
 * At the end of the minute, all students again pair off with another person at random.
 * In the beginning one student starts spreading the rumor. He/She spreads the rumor to his conversation partner at noon.
